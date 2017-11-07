@@ -42,11 +42,10 @@
 
 
 -(void)infoUpdate{
-    NSMutableString* info = [[NSString stringWithFormat:@"Current Player: %@", _yourTurn.display_name] mutableCopy];
+    NSMutableString* info = [[NSString stringWithFormat:@"Current Player: %@\n", _yourTurn] mutableCopy];
+    
     for (Player* player in _players){
-        NSString* line = [NSString stringWithFormat: @"@%@core: %ld \n", player.display_name,(long)player.score];
-        [info appendFormat: @"%@",line];
-
+            [info appendFormat: @"%@",[NSString stringWithFormat: @"%@ score: %ld \n", player,(long)player.score]];
     }
     
     _infoLabel.text = info;}
@@ -60,12 +59,13 @@
     
 }
 -(void)addPlayer{
-    if (_number_of_player == 5){
-        NSLog(@"cant add more ppl");}
-    else{
-        _number_of_player += 1;
-        [_players addObject:[Player maxFivePlayerArray][(_number_of_player - 1)]];}
-    }
+    if (_players.count == _number_of_player){
+        if (_number_of_player == 5){
+            NSLog(@"cant add more ppl");}
+        else{
+            _number_of_player += 1;
+            [_players addObject:[Player maxFivePlayerArray][(_number_of_player - 1)]];}
+    }}
 
 
 
@@ -74,9 +74,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     _number_of_player = 0;
-    _player_index = -1;
+    _players = [NSMutableArray new];
     [self addPlayer];
+    
+    _player_index = -1;
     [self cycle];
 
     

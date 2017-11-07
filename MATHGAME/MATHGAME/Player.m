@@ -9,13 +9,16 @@
 #import "Player.h"
 
 @implementation Player
-- (instancetype)init
-{
+- (instancetype)init{
     self = [super init];
     if (self) {
-        self.score = 0;    }
-    return self;
-}
+        self.score = 0;}
+    return self;}
+
+
+- (NSString *)description{
+    return [NSString stringWithFormat:@"%@", self.display_name];}
+
 
 +(NSArray*)maxFivePlayerArray{
     Player*player1 = [Player new];
