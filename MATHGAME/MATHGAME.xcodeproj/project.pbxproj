@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D31EF01FB1555100CE642B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31EEF1FB1555100CE642B /* AppDelegate.m */; };
+		B1D31EF61FB1555200CE642B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D31EF41FB1555200CE642B /* Main.storyboard */; };
+		B1D31EF91FB1555200CE642B /* MATHGAME.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1D31EF71FB1555200CE642B /* MATHGAME.xcdatamodeld */; };
+		B1D31EFB1FB1555200CE642B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D31EFA1FB1555200CE642B /* Assets.xcassets */; };
+		B1D31EFE1FB1555200CE642B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D31EFC1FB1555200CE642B /* LaunchScreen.storyboard */; };
+		B1D31F011FB1555200CE642B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31F001FB1555200CE642B /* main.m */; };
+		B1D31F0B1FB1555200CE642B /* MATHGAMETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31F0A1FB1555200CE642B /* MATHGAMETests.m */; };
+		B1D31F161FB1555200CE642B /* MATHGAMEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31F151FB1555200CE642B /* MATHGAMEUITests.m */; };
+		B1D31F281FB155A200CE642B /* QuestionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31F271FB155A200CE642B /* QuestionGenerator.m */; };
+		B1D31F2B1FB1679D00CE642B /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31F2A1FB1679D00CE642B /* Player.m */; };
+		B1D31F2E1FB170D200CE642B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D31F2D1FB170D200CE642B /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D31F071FB1555200CE642B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D31EE31FB1555100CE642B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D31EEA1FB1555100CE642B;
+			remoteInfo = MATHGAME;
+		};
+		B1D31F121FB1555200CE642B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D31EE31FB1555100CE642B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D31EEA1FB1555100CE642B;
+			remoteInfo = MATHGAME;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1D31EEB1FB1555100CE642B /* MATHGAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MATHGAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D31EEE1FB1555100CE642B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1D31EEF1FB1555100CE642B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1D31EF51FB1555200CE642B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D31EF81FB1555200CE642B /* MATHGAME.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MATHGAME.xcdatamodel; sourceTree = "<group>"; };
+		B1D31EFA1FB1555200CE642B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D31EFD1FB1555200CE642B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1D31EFF1FB1555200CE642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D31F001FB1555200CE642B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1D31F061FB1555200CE642B /* MATHGAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MATHGAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D31F0A1FB1555200CE642B /* MATHGAMETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MATHGAMETests.m; sourceTree = "<group>"; };
+		B1D31F0C1FB1555200CE642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D31F111FB1555200CE642B /* MATHGAMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MATHGAMEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D31F151FB1555200CE642B /* MATHGAMEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MATHGAMEUITests.m; sourceTree = "<group>"; };
+		B1D31F171FB1555200CE642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D31F261FB155A200CE642B /* QuestionGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuestionGenerator.h; sourceTree = "<group>"; };
+		B1D31F271FB155A200CE642B /* QuestionGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuestionGenerator.m; sourceTree = "<group>"; };
+		B1D31F291FB1679D00CE642B /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B1D31F2A1FB1679D00CE642B /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B1D31F2C1FB170D100CE642B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1D31F2D1FB170D200CE642B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D31EE81FB1555100CE642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D31F031FB1555200CE642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D31F0E1FB1555200CE642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D31EE21FB1555100CE642B = {
+			isa = PBXGroup;
+			children = (
+				B1D31EED1FB1555100CE642B /* MATHGAME */,
+				B1D31F091FB1555200CE642B /* MATHGAMETests */,
+				B1D31F141FB1555200CE642B /* MATHGAMEUITests */,
+				B1D31EEC1FB1555100CE642B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D31EEC1FB1555100CE642B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D31EEB1FB1555100CE642B /* MATHGAME.app */,
+				B1D31F061FB1555200CE642B /* MATHGAMETests.xctest */,
+				B1D31F111FB1555200CE642B /* MATHGAMEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D31EED1FB1555100CE642B /* MATHGAME */ = {
+			isa = PBXGroup;
+			children = (
+				B1D31EEE1FB1555100CE642B /* AppDelegate.h */,
+				B1D31EEF1FB1555100CE642B /* AppDelegate.m */,
+				B1D31F2C1FB170D100CE642B /* ViewController.h */,
+				B1D31F2D1FB170D200CE642B /* ViewController.m */,
+				B1D31F261FB155A200CE642B /* QuestionGenerator.h */,
+				B1D31F271FB155A200CE642B /* QuestionGenerator.m */,
+				B1D31EF41FB1555200CE642B /* Main.storyboard */,
+				B1D31F291FB1679D00CE642B /* Player.h */,
+				B1D31F2A1FB1679D00CE642B /* Player.m */,
+				B1D31EFA1FB1555200CE642B /* Assets.xcassets */,
+				B1D31EFC1FB1555200CE642B /* LaunchScreen.storyboard */,
+				B1D31EFF1FB1555200CE642B /* Info.plist */,
+				B1D31F001FB1555200CE642B /* main.m */,
+				B1D31EF71FB1555200CE642B /* MATHGAME.xcdatamodeld */,
+			);
+			path = MATHGAME;
+			sourceTree = "<group>";
+		};
+		B1D31F091FB1555200CE642B /* MATHGAMETests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D31F0A1FB1555200CE642B /* MATHGAMETests.m */,
+				B1D31F0C1FB1555200CE642B /* Info.plist */,
+			);
+			path = MATHGAMETests;
+			sourceTree = "<group>";
+		};
+		B1D31F141FB1555200CE642B /* MATHGAMEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D31F151FB1555200CE642B /* MATHGAMEUITests.m */,
+				B1D31F171FB1555200CE642B /* Info.plist */,
+			);
+			path = MATHGAMEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D31EEA1FB1555100CE642B /* MATHGAME */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D31F1A1FB1555200CE642B /* Build configuration list for PBXNativeTarget "MATHGAME" */;
+			buildPhases = (
+				B1D31EE71FB1555100CE642B /* Sources */,
+				B1D31EE81FB1555100CE642B /* Frameworks */,
+				B1D31EE91FB1555100CE642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MATHGAME;
+			productName = MATHGAME;
+			productReference = B1D31EEB1FB1555100CE642B /* MATHGAME.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D31F051FB1555200CE642B /* MATHGAMETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D31F1D1FB1555200CE642B /* Build configuration list for PBXNativeTarget "MATHGAMETests" */;
+			buildPhases = (
+				B1D31F021FB1555200CE642B /* Sources */,
+				B1D31F031FB1555200CE642B /* Frameworks */,
+				B1D31F041FB1555200CE642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D31F081FB1555200CE642B /* PBXTargetDependency */,
+			);
+			name = MATHGAMETests;
+			productName = MATHGAMETests;
+			productReference = B1D31F061FB1555200CE642B /* MATHGAMETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D31F101FB1555200CE642B /* MATHGAMEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D31F201FB1555200CE642B /* Build configuration list for PBXNativeTarget "MATHGAMEUITests" */;
+			buildPhases = (
+				B1D31F0D1FB1555200CE642B /* Sources */,
+				B1D31F0E1FB1555200CE642B /* Frameworks */,
+				B1D31F0F1FB1555200CE642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D31F131FB1555200CE642B /* PBXTargetDependency */,
+			);
+			name = MATHGAMEUITests;
+			productName = MATHGAMEUITests;
+			productReference = B1D31F111FB1555200CE642B /* MATHGAMEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D31EE31FB1555100CE642B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sean Liu";
+				TargetAttributes = {
+					B1D31EEA1FB1555100CE642B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					B1D31F051FB1555200CE642B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1D31EEA1FB1555100CE642B;
+					};
+					B1D31F101FB1555200CE642B = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1D31EEA1FB1555100CE642B;
+					};
+				};
+			};
+			buildConfigurationList = B1D31EE61FB1555100CE642B /* Build configuration list for PBXProject "MATHGAME" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D31EE21FB1555100CE642B;
+			productRefGroup = B1D31EEC1FB1555100CE642B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D31EEA1FB1555100CE642B /* MATHGAME */,
+				B1D31F051FB1555200CE642B /* MATHGAMETests */,
+				B1D31F101FB1555200CE642B /* MATHGAMEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D31EE91FB1555100CE642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D31EFE1FB1555200CE642B /* LaunchScreen.storyboard in Resources */,
+				B1D31EFB1FB1555200CE642B /* Assets.xcassets in Resources */,
+				B1D31EF61FB1555200CE642B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D31F041FB1555200CE642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D31F0F1FB1555200CE642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D31EE71FB1555100CE642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D31F2E1FB170D200CE642B /* ViewController.m in Sources */,
+				B1D31F281FB155A200CE642B /* QuestionGenerator.m in Sources */,
+				B1D31EF91FB1555200CE642B /* MATHGAME.xcdatamodeld in Sources */,
+				B1D31F011FB1555200CE642B /* main.m in Sources */,
+				B1D31EF01FB1555100CE642B /* AppDelegate.m in Sources */,
+				B1D31F2B1FB1679D00CE642B /* Player.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D31F021FB1555200CE642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D31F0B1FB1555200CE642B /* MATHGAMETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D31F0D1FB1555200CE642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D31F161FB1555200CE642B /* MATHGAMEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D31F081FB1555200CE642B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D31EEA1FB1555100CE642B /* MATHGAME */;
+			targetProxy = B1D31F071FB1555200CE642B /* PBXContainerItemProxy */;
+		};
+		B1D31F131FB1555200CE642B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D31EEA1FB1555100CE642B /* MATHGAME */;
+			targetProxy = B1D31F121FB1555200CE642B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1D31EF41FB1555200CE642B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D31EF51FB1555200CE642B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D31EFC1FB1555200CE642B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D31EFD1FB1555200CE642B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D31F181FB1555200CE642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1D31F191FB1555200CE642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D31F1B1FB1555200CE642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25L2HG5XF;
+				INFOPLIST_FILE = MATHGAME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sean.MATHGAME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D31F1C1FB1555200CE642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25L2HG5XF;
+				INFOPLIST_FILE = MATHGAME/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sean.MATHGAME;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1D31F1E1FB1555200CE642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25L2HG5XF;
+				INFOPLIST_FILE = MATHGAMETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sean.MATHGAMETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MATHGAME.app/MATHGAME";
+			};
+			name = Debug;
+		};
+		B1D31F1F1FB1555200CE642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25L2HG5XF;
+				INFOPLIST_FILE = MATHGAMETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sean.MATHGAMETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MATHGAME.app/MATHGAME";
+			};
+			name = Release;
+		};
+		B1D31F211FB1555200CE642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25L2HG5XF;
+				INFOPLIST_FILE = MATHGAMEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sean.MATHGAMEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MATHGAME;
+			};
+			name = Debug;
+		};
+		B1D31F221FB1555200CE642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P25L2HG5XF;
+				INFOPLIST_FILE = MATHGAMEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sean.MATHGAMEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MATHGAME;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D31EE61FB1555100CE642B /* Build configuration list for PBXProject "MATHGAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D31F181FB1555200CE642B /* Debug */,
+				B1D31F191FB1555200CE642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D31F1A1FB1555200CE642B /* Build configuration list for PBXNativeTarget "MATHGAME" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D31F1B1FB1555200CE642B /* Debug */,
+				B1D31F1C1FB1555200CE642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D31F1D1FB1555200CE642B /* Build configuration list for PBXNativeTarget "MATHGAMETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D31F1E1FB1555200CE642B /* Debug */,
+				B1D31F1F1FB1555200CE642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D31F201FB1555200CE642B /* Build configuration list for PBXNativeTarget "MATHGAMEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D31F211FB1555200CE642B /* Debug */,
+				B1D31F221FB1555200CE642B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1D31EF71FB1555200CE642B /* MATHGAME.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1D31EF81FB1555200CE642B /* MATHGAME.xcdatamodel */,
+			);
+			currentVersion = B1D31EF81FB1555200CE642B /* MATHGAME.xcdatamodel */;
+			path = MATHGAME.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1D31EE31FB1555100CE642B /* Project object */;
+}
